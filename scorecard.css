@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+#heading-home{
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+/* identical to box height, or 90% */
+
+     text-align: center;
+
+     color: #EEEEEE;
+
+}
+#guesting-home{
+    position: absolute;
+width: 149px;
+height: 36px;
+left: 340px;
+top: 68px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+
+color: #EEEEEE;
+}
+#home-team-scorecard{
+    position: absolute;
+width: 155px;
+height: 120px;
+left: 85px;
+top: 165px;
+
+background: #080001;
+border-radius: 5px;
+text-align: center;
+font-size: 30px;
+line-height: 3.5;
+font-family: 'Cursed Timer ULiL';
+color: #F94F6D;
+}
+#guest-team-scorecard{
+     position: absolute;
+width: 155px;
+height: 120px;
+left: 349px;
+top: 165px;
+
+background: #080001;
+border-radius: 5px;
+text-align: center;
+font-size: 30px;
+line-height: 3.5;
+font-family: 'Cursed Timer ULiL';
+color: #F94F6D;
+}
+#button1{
+position: absolute;
+width: 45px;
+height: 45px;
+left: 87px;
+top: 292px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+}
+#button2{
+position: absolute;
+width: 45px;
+height: 45px;
+left: 142.5px;
+top: 292px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+}
+#button3{
+position: absolute;
+width: 45px;
+height: 45px;
+left: 197px;
+top: 292px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+}
+#button4{
+position: absolute;
+width: 45px;
+height: 45px;
+left: 349px;
+top: 292px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+}
+#button5{
+position: absolute;
+width: 45px;
+height: 45px;
+left: 404.5px;
+top: 292px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+}
+#button6{
+position: absolute;
+width: 45px;
+height: 45px;
+left: 459px;
+top: 292px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+}
+#resetButton{
+    position: absolute;
+    top: 360px;
+    left: 230px;
+    width: 150px;
+    height: 30px;
+    background: white;
+    border-radius: 3px;
+}

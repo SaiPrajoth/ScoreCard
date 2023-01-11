@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="scorecard.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="heading-home" >
+                <h3 >HOME</h3>
+            </div>
+            <div id="home-team-scorecard">
+                0
+            </div>
+            <div id="guest-team-scorecard">
+                0
+            </div>
+            
+            <div id="guesting-home">
+                <h3>GUEST</h3>
+            </div>
+        </div>
+        
+        <button id="button1" onclick="add1Home()">+1</button>
+        <button id="button2" onclick="add2Home()">+2</button>
+        <button id="button3" onclick="add3Home()">+3</button>
+        <button id="button4" onclick="add1Guest()">+1</button>
+        <button id="button5" onclick="add2Guest()">+2</button>
+        <button id="button6" onclick="add3Guest()">+3</button>
+        <script src="scorecard.js"></script>
+
+        <button id="resetButton" onclick="reset()">NEW GAME</button>
+    </body>
+</html>
